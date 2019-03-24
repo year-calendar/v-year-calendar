@@ -93,7 +93,7 @@ export default {
                 ${this.maxDate}
                 ${this.minDate}
                 ${this.roundRangeLimits}
-                ${this.style}
+                ${this.renderStyle}
                 ${this.weekStart}
                 ${this.year}
             `;
@@ -119,7 +119,7 @@ export default {
         maxDate: function(val) { this.calendar.setMaxDate(val, true); this.shouldRender = true; },
         minDate: function(val) { this.calendar.setMinDate(val, true); this.shouldRender = true; },
         roundRangeLimits: function(val) { this.calendar.setRoundRangeLimits(val, true); this.shouldRender = true; },
-        style: function(val) { this.calendar.setStyle(val, true); this.shouldRender = true; },
+        renderStyle: function(val) { this.calendar.setStyle(val, true); this.shouldRender = true; },
         weekStart: function(val) { this.calendar.setWeekStart(val, true); this.shouldRender = true; },
         year: function(val) { this.calendar.setYear(val); },
         allProps: function(val) {
