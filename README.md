@@ -30,7 +30,6 @@ export default {
     Calendar
   }
 }
-
 </script>
 ```
 
@@ -74,13 +73,13 @@ You can specify props to customize the calendar:
 
 | Event name | Description | Parameter |
 | ---------- | ----------- | --------- |
-| clickDay | Function fired when a day is clicked. | `{ date, events }` |
-| dayContextMenu | Function fired when a day is right clicked. | `{ date, events }` |
-| mouseOnDay | Function fired when the mouse enter on a day. | `{ date, events }` |
-| mouseOutDay | Function fired when the mouse leaves a day. | `{ date, events }` |
-| renderEnd | Function fired when the calendar rendering is ended. | `{ currentYear }` |
-| selectRange | Function fired when a date range is selected. | `{ startDate, endDate }` |
-| yearChanged | Function fired when the visible year of the calendar is changed. | `{ currentYear }` |
+| click-day | Function fired when a day is clicked. | `{ date, events }` |
+| day-context-menu | Function fired when a day is right clicked. | `{ date, events }` |
+| mouse-on-day | Function fired when the mouse enter on a day. | `{ date, events }` |
+| mouse-out-day | Function fired when the mouse leaves a day. | `{ date, events }` |
+| render-end | Function fired when the calendar rendering is ended. | `{ currentYear }` |
+| select-range | Function fired when a date range is selected. | `{ startDate, endDate }` |
+| year-changed | Function fired when the visible year of the calendar is changed. | `{ currentYear }` |
 
 ## Language
 

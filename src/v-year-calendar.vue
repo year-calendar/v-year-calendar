@@ -62,13 +62,13 @@ export default {
             startYear: this.year,
             
             // Events
-            clickDay: e => this.$emit('clickDay', e),
-            dayContextMenu: e => this.$emit('dayContextMenu', e),
-            mouseOnDay: e => this.$emit('mouseOnDay', e),
-            mouseOutDay: e => this.$emit('mouseOutDay', e),
-            renderEnd: e => this.$emit('renderEnd', e),
-            selectRange: e => this.$emit('selectRange', e),
-            yearChanged: e => this.$emit('yearChanged', e)
+            clickDay: e => this.$emit('click-day', e),
+            dayContextMenu: e => this.$emit('day-context-menu', e),
+            mouseOnDay: e => this.$emit('mouse-on-day', e),
+            mouseOutDay: e => this.$emit('mouse-out-day', e),
+            renderEnd: e => this.$emit('render-end', e),
+            selectRange: e => this.$emit('select-range', e),
+            yearChanged: e => this.$emit('year-changed', e)
         });
     },
     computed: {
