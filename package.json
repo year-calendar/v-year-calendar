@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/year-calendar/v-year-calendar",
   "dependencies": {
-    "js-year-calendar": "^1.0.0-alpha.5"
+    "js-year-calendar": "^1.0.0-alpha.6"
   },
   "peerDependencies": {
     "vue": "^2.5.2"
