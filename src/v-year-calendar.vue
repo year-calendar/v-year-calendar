@@ -128,6 +128,7 @@ export default {
                 this.shouldRender = false;
             }
         }
-    }
-}
+    },
+    locales: JsCalendar.locales // Map the "locales" property to the js-year-calendar "locales" property, in order to make the locale files compatible
+};
 </script>
