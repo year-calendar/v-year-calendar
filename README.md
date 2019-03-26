@@ -7,6 +7,11 @@ Official Vue.js wrapper for the year-calendar widget. https://year-calendar.gith
 [![CircleCI](https://img.shields.io/circleci/project/github/year-calendar/v-year-calendar/master.svg)](https://circleci.com/gh/year-calendar/v-year-calendar/tree/master)
 [![NPM](https://img.shields.io/npm/dw/v-year-calendar.svg)](https://www.npmjs.com/package/v-year-calendar)
 
+This library is also available for:
+
+[![Pure javascript](https://year-calendar.github.io/assets/img/js.png)](https://github.com/year-calendar/js-year-calendar) 
+[![React.js](https://year-calendar.github.io/assets/img/react.png)](https://github.com/year-calendar/rc-year-calendar) 
+
 ## Installation
 You can get the widget using the following methods:
 - From the [GitHub repository](https://github.com/year-calendar/v-year-calendar/releases)
