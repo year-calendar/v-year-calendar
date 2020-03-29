@@ -1,9 +1,9 @@
-import nodeResolve from "rollup-plugin-node-resolve";
 import babel from "rollup-plugin-babel";
-import vue from "rollup-plugin-vue";
+import commonjs from "@rollup/plugin-commonjs";
+import nodeResolve from "@rollup/plugin-node-resolve";
 import postcss from 'rollup-plugin-postcss';
-import commonjs from "rollup-plugin-commonjs";
 import { uglify } from "rollup-plugin-uglify";
+import vue from "rollup-plugin-vue";
 import pkg from "./package.json";
 
 var defaultConfig = {
