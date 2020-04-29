@@ -1,6 +1,6 @@
 {
   "name": "v-year-calendar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Official Vue.js wrapper for the year-calendar widget",
   "main": "./dist/v-year-calendar.js",
   "scripts": {
@@ -34,7 +34,7 @@
   },
   "homepage": "https://year-calendar.github.io/",
   "dependencies": {
-    "js-year-calendar": "^1.0.1"
+    "js-year-calendar": "^1.0.2"
   },
   "peerDependencies": {
     "vue": "^2.5.2"
