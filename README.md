@@ -54,8 +54,8 @@ You can specify props to customize the calendar:
 | allow-overlap | Specifies whether the user can select a range which overlapping an other element present in the datasource. | boolean | `true` |
 | always-half-day | Specifies whether the beginning and the end of each range should be displayed as half selected day. | boolean | `false` |
 | context-menu-items | Specifies the items of the default context menu. | array | `[]` |
-| custom-day-renderer | Specify a custom renderer for data source. Works only with the style set to "custom". This function is called duringender for each day containing at least one event. | Render function | `null` |
-| custom-data-source-renderer | Specify a custom renderer for days. This function is called during render for each day. | Render function | `null` |
+| custom-data-source-renderer | Specify a custom renderer for data source. Works only with the style set to "custom". This function is called duringender for each day containing at least one event. | Render function | `null` |
+| custom-day-renderer | Specify a custom renderer for days. This function is called during render for each day. | Render function | `null` |
 | data-source | The elements that must be displayed on the calendar. | array or function | `[]` |
 | disabled-days | The days that must be displayed as disabled. | array | `[]` |
 | disabled-week-days | The days of the week that must be displayed as disabled (0 for Sunday, 1 for Monday, etc.). | array | `[]` |
